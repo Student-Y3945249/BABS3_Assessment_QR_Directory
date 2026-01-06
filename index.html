@@ -95,6 +95,19 @@
             background-color: #1d4ed8;
         }
 
+        .file-item.red:hover {
+            border-color: #dc2626;
+            background-color: #fef2f2;
+        }
+
+        .download-btn.red {
+            background-color: #dc2626;
+        }
+
+        .download-btn.red:hover {
+            background-color: #b91c1c;
+        }
+        
         /* Mobile adjustment */
         @media (max-width: 480px) {
             .file-item { flex-direction: column; align-items: flex-start; gap: 10px; }
@@ -112,12 +125,20 @@
 
         <div class="file-list">
 
+            <div class="file-item red">
+                <div class="file-info">
+                    <span class="file-name">Download All Files</span>
+                    <span class="file-meta">ZIP File</span>
+                </div>
+                <a href="BABS3_All_Y3945249.zip" download class="download-btn red">Download</a>
+            </div>
+            
             <div class="file-item">
                 <div class="file-info">
                     <span class="file-name">References List</span>
                     <span class="file-meta">PDF File</span>
                 </div>
-                <a href="ModellingInfectionReferences.docx" download class="download-btn">Download</a> 
+                <a href="BABS3_References_Y3945249.pdf" download class="download-btn">Download</a> 
             </div>
             
             <div class="file-item">
@@ -125,7 +146,7 @@
                     <span class="file-name">All Figures</span>
                     <span class="file-meta">ZIP File</span>
                 </div>
-                <a href="Data_Analysis.xlsx" download class="download-btn">Download</a>
+                <a href="BABS3_R_Figures_Y3945249.zip" download class="download-btn">Download</a>
             </div>
 
             <div class="file-item">
@@ -133,7 +154,7 @@
                     <span class="file-name">Model File</span>
                     <span class="file-meta">NLOGO File</span>
                 </div>
-                <a href="COVID-19_VIRUS_SPREAD_Y3945249.nlogo" download class="download-btn">Download</a>
+                <a href="BABS3_NetLogo_Model_Y3945249.nlogo" download class="download-btn">Download</a>
             </div>
 
             <div class="file-item">
@@ -141,7 +162,7 @@
                     <span class="file-name">Model Parameters</span>
                     <span class="file-meta">XML File</span>
                 </div>
-                <a href="COVID-19_VIRUS_SPREAD-experiments_Y3945249.xml" download class="download-btn">Download</a>
+                <a href="BABS3_NetLogo_Parameters_Y3945249.xml" download class="download-btn">Download</a>
             </div>
 
             <div class="file-item">
@@ -149,7 +170,7 @@
                     <span class="file-name">Raw Data</span>
                     <span class="file-meta">CSV File</span>
                 </div>
-                <a href="covid19_model_output_Y3945249.csv" download class="download-btn">Download</a>
+                <a href="BABS3_Raw_Data_Y3945249.csv" download class="download-btn">Download</a>
             </div>
             
             <div class="file-item">
@@ -165,7 +186,7 @@
                     <span class="file-name">Poster</span>
                     <span class="file-meta">PDF File</span>
                 </div>
-                <a href="Research_Notes.docx" download class="download-btn">Download</a>
+                <a href="BABS3_Poster_Y3945249.pdf" download class="download-btn">Download</a>
             </div>
             
             </div>
